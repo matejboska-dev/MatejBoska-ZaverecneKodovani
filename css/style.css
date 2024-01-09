@@ -1,0 +1,78 @@
+
+body{
+    width: 90%;
+    max-width: 1200px;
+    margin: 10px auto 50px auto;
+}
+
+/*================================Header===================================*/
+header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(#FF6B00, #813E0E);
+    padding: 10px 0;
+    overflow: hidden;
+}
+
+header h2{
+    font-family: 'Inter', sans-serif;
+    font-weight: 200;
+    font-style: italic;
+    margin: 0 0 0 20px;
+}
+
+header button{
+    background-color: rgb(110, 110, 110);
+    border: none;
+    width: 100px;
+    font-family: 'Comic Neue', sans-serif;
+    font-weight: bold;
+    font-size: 1.1em;
+    border-radius: 5px;
+}
+.header-buttons-container{
+    margin-right: 20px;
+}
+/*--------------------------------Header------------------------------------*/
+
+/*=============================About Layout=================================*/
+main{
+    margin-top: 30px;
+    width: 100%;
+}
+
+.about-content{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 30px;
+}
+.about-content-text{
+    display: flex;
+    justify-content: center;
+    height:100%;
+    flex-direction: column;
+}
+.about-content-text h1{
+    justify-self: start;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-style: italic;
+    text-shadow: black 0 4px 4px;
+}
+.about-content-text p{
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-style: italic;
+}
+.about-content-images{
+    display: grid;
+    gap: 30px;
+}
+.about-content-images img{
+    width: 100%;
+}
+/*-----------------------------About Layout---------------------------------*/
+
