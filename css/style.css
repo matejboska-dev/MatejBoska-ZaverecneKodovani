@@ -40,13 +40,17 @@ header button{
     margin-left: auto;
 }
 .header-mobile-navigation button{
-     width: 80%;
+     width: 100%;
      font-family: 'Comic Neue', sans-serif;
      font-weight: bold;
      font-size: 1.1em;
      border-radius: 5px;
      border: none;
      background-color: rgb(110, 110, 110);
+}
+
+.header-mobile-navigation a{
+    width: 80%;
 }
 
 .header-mobile-navigation{
