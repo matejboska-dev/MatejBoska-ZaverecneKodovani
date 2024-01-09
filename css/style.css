@@ -6,10 +6,13 @@ body{
 }
 
 /*================================Header===================================*/
+.header-humburger-icon > a{
+    display: none;
+}
+
 header{
     width: 100%;
     display: flex;
-    justify-content: space-between;
     align-items: center;
     background: linear-gradient(#FF6B00, #813E0E);
     padding: 10px 0;
@@ -34,6 +37,47 @@ header button{
 }
 .header-buttons-container{
     margin-right: 20px;
+    margin-left: auto;
+}
+.header-mobile-navigation button{
+     width: 80%;
+     font-family: 'Comic Neue', sans-serif;
+     font-weight: bold;
+     font-size: 1.1em;
+     border-radius: 5px;
+     border: none;
+     background-color: rgb(110, 110, 110);
+}
+
+.header-mobile-navigation{
+    width: 100%;
+    background-color: #FF6B00;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 20px 0;
+}
+
+.header-mobile-navigation button:hover, .header-buttons-container button:hover{
+    background-color: rgb(52, 52, 52);
+}
+
+@media  screen and (max-width: 700px) {
+    .header-buttons-container{
+        display:none;
+    }
+    .header-humburger-icon > a{
+        display: block;
+        color: black;
+    }
+    .header-humburger-icon{
+        margin-right: 20px;
+        margin-left: auto;
+    }
+    header h2{
+        font-size: 5vw;
+    }
 }
 /*--------------------------------Header------------------------------------*/
 
@@ -60,7 +104,7 @@ main{
     font-family: 'Inter', sans-serif;
     font-weight: 600;
     font-style: italic;
-    text-shadow: black 0 4px 4px;
+    text-shadow: rgba(0, 0, 0, 0.25) 0 4px 4px;
 }
 .about-content-text p{
     font-family: 'Inter', sans-serif;
@@ -73,6 +117,21 @@ main{
 }
 .about-content-images img{
     width: 100%;
+}
+.about-content-images img:nth-child(n + 3):nth-child(-n + 5){
+    display: none;
+}
+
+@media screen and (max-width: 1027px) and (min-width: 401px){
+    .about-content-images img:nth-child(n):nth-child(-n + 3){
+        display: block;
+    }
+}
+
+@media screen and (max-width: 400px){
+    .about-content-images img:nth-child(n + 4):nth-child(-n + 5){
+        display: block;
+    }
 }
 /*-----------------------------About Layout---------------------------------*/
 
