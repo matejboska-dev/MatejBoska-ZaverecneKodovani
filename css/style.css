@@ -139,3 +139,53 @@ main{
 }
 /*-----------------------------About Layout---------------------------------*/
 
+/*-----------------------------Contact Layout-------------------------------*/
+
+
+
+.contact-top-contact-box
+{
+    width: 100%;
+    
+    text-align: center;
+    margin-top: 1vw;
+
+    font-family: 'Inter', sans-serif;
+    font-style: italic;
+    text-shadow: rgba(0, 0, 0, 0.25) 0 4px 4px;
+    font-size: 2.2vw;
+    font-weight: 900;
+}
+
+.contact-content-section
+{
+    font-family: 'Inter', sans-serif;
+    font-style: italic;
+    text-shadow: rgba(0, 0, 0, 0.25) 0 4px 4px;
+}
+
+.contact-content-header-text
+{
+    font-size: 1.5vw;
+    font-weight:800;
+}
+
+.contact-content-medium-text
+{
+    font-size: 0.9vw;
+    font-weight:600;
+    
+}
+
+.contact-content-small-text
+{
+    display: inline-block;
+    width: 3250px;
+    height: 350px;
+    font-size: 0.7vw;
+    font-weight:600;
+    
+}
+
+
+
