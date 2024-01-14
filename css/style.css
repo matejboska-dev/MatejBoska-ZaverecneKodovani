@@ -142,6 +142,37 @@ main{
 /*-----------------------------Contact Layout-------------------------------*/
 
 
+.contact-content-container
+{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: flex-start;
+    align-content: space-between;
+
+    height: 95vh;
+    
+    
+
+}
+
+
+.contact-content-container-split
+{
+    display: flex;
+    
+
+    height: 100%;
+    width: 45%;
+    
+
+
+    flex-direction: column;
+    align-items: flex-start;
+
+    
+    
+}
+
 
 .contact-top-contact-box
 {
@@ -153,39 +184,114 @@ main{
     font-family: 'Inter', sans-serif;
     font-style: italic;
     text-shadow: rgba(0, 0, 0, 0.25) 0 4px 4px;
-    font-size: 2.2vw;
+    font-size: 2.2em;
     font-weight: 900;
 }
 
 .contact-content-section
 {
+   
     font-family: 'Inter', sans-serif;
     font-style: italic;
     text-shadow: rgba(0, 0, 0, 0.25) 0 4px 4px;
+    display: inline-block;
+    width: 100%
+    
 }
+
+.contact-content-section-left{text-align: left;}
+
+.contact-content-section-right{text-align: right;}
+
+.contact-content-section-bottom
+{
+
+    align-self: flex-end;
+    margin-top: auto;
+    
+    
+    height: 35%;
+    width: 100%;
+}
+
+.contact-content-section-bottom > * 
+{
+
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.contact-flex-break{flex-basis: 100%; height: 0; margin: 0; border: 0; }
 
 .contact-content-header-text
 {
-    font-size: 1.5vw;
+    font-size: 2em;
     font-weight:800;
 }
 
 .contact-content-medium-text
 {
-    font-size: 0.9vw;
+    font-size: 1.2em;
     font-weight:600;
     
 }
 
 .contact-content-small-text
 {
-    display: inline-block;
-    width: 3250px;
-    height: 350px;
-    font-size: 0.7vw;
+    
+    width: 300px;
+    height: 75px;
+    font-size: 1em;
     font-weight:600;
+    
+    
+    
     
 }
 
+.contact-map
+{
+    
+    width: 100%;
+    height: 100%;
+}
 
+.contact-img
+{
+
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 600px) 
+{
+    *
+    {
+        text-align: left;
+    }
+
+
+
+    .contact-content-container
+    {
+        display: block;
+        width: 95vw;
+    }
+    .contact-content-container-split
+    {
+
+        width: 100%;
+    }
+}
 
