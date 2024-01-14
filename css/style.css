@@ -187,5 +187,53 @@ main{
     
 }
 
+/*-----------------------------Contact Layout-------------------------------*/
+
+/*-----------------------------Index Layout-------------------------------*/
+
+        body {
+            
+           
+        }
+
+        header {
+            text-align: center;
+            padding: 20px;
+            background-color: #f0f0f0;
+        }
+
+        header h2 {
+            margin: 0;
+        }
+
+        .header-buttons-container {
+            margin-top: 20px;
+        }
+
+        main {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 20px;
+        }
+
+        .bigdog-image img {
+            max-width: 60%;
+            height: auto;
+        }
+
+        .bigdog-image {
+            flex: 1 0 45%; 
+            margin-bottom: 20px;
+            border-radius: 25px;
+            overflow: hidden;
+        }
+        
+        @media screen and (max-width: 768px) {
+            .dog-image {
+                flex: 1 0 100%;
+            }
+        }
+/*-----------------------------Index Layout-------------------------------*/
 
 

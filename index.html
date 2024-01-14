@@ -12,10 +12,7 @@
     <title>Lorem Ipsum dog shelter</title>
 </head>
 <body>
-    <!--zacatek Headeru-->
-
-
-    <Header>
+    <header>
         <h2>Lorem Ipsum dog shelter</h2>
         <div class="header-buttons-container">
             <a href="index.html"><button>HOME</button></a>
@@ -23,26 +20,37 @@
             <a href="contact.html"><button>CONTACT</button></a>
         </div>
         <div class="header-humburger-icon">
-            <a href="javascript:void(0);" onclick="mobileNavigation()"><i class="fa fa-bars"  style="font-size:36px"></i></a>
+            <a href="javascript:void(0);" onclick="mobileNavigation()"><i class="fa fa-bars" style="font-size:36px"></i></a>
         </div>
-    </Header>
+    </header>
     <div class="header-mobile-navigation" id="mobile-navigation">
         <a href="index.html"><button>HOME</button></a>
         <a href="about.html"><button>ABOUT</button></a>
         <a href="contact.html"><button>CONTACT</button></a>
     </div>
+
+    <main>
+        <div class="bigdog-image">
+            <img src="imgs/bigdog.png" alt="Big Dog 1"  >
+        </div>
+        <div class="smalldog-image">
+            <img src="imgs/smalldog1.png" alt="Small Dog 1">
+        </div>
+        <div class="smalldog-image">
+            <img src="imgs/smalldog2,png" alt="Small Dog 2">
+        </div>
+        
+    </main>
+
     <script>
         function mobileNavigation() {
-    var x = document.getElementById("mobile-navigation");
-    if (x.style.display === "flex") {
-      x.style.display = "none";
-    } else {
-      x.style.display = "flex";
-    }
-  }
+            var x = document.getElementById("mobile-navigation");
+            if (x.style.display === "flex") {
+                x.style.display = "none";
+            } else {
+                x.style.display = "flex";
+            }
+        }
     </script>
-
-
-<!--konec Headeru-->
 </body>
 </html>
