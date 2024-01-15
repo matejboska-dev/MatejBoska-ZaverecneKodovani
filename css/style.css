@@ -284,9 +284,6 @@ main{
             margin: 0;
         }
 
-        .header-buttons-container {
-            margin-top: 20px;
-        }
 
         main {
             display: flex;
@@ -301,7 +298,7 @@ main{
         }
 
         .bigdog-image {
-            flex: 1 0 45%; 
+            flex: 1 0 70%; 
             margin-bottom: 20px;
             border-radius: 25px;
             overflow: hidden;
