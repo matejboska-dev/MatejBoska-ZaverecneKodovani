@@ -269,46 +269,38 @@ main{
 
 /*-----------------------------Index Layout-------------------------------*/
 
-        body {
-            
-           
-        }
-
-        header {
-            text-align: center;
-            padding: 20px;
-            background-color: #f0f0f0;
-        }
-
-        header h2 {
-            margin: 0;
-        }
+body {
 
 
-        main {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-around;
-            padding: 20px;
-        }
+}
 
-        .bigdog-image img {
-            max-width: 60%;
-            height: auto;
-        }
+.header-buttons-container {
+    margin-top: 20px;
+}
 
-        .bigdog-image {
-            flex: 1 0 70%; 
-            margin-bottom: 20px;
-            border-radius: 25px;
-            overflow: hidden;
-        }
-        
-        @media screen and (max-width: 768px) {
-            .dog-image {
-                flex: 1 0 100%;
-            }
-        }
+main {
+    max-width: 1200px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr; 
+}
+
+.bigdog-image {
+    flex: 1 0 45%; 
+    grid-column: span 2;
+    grid-row: span 2;
+}
+
+main img{
+    width: 100%;
+    border-radius: 25px;
+}
+
+@media screen and (max-width: 768px) {
+    .dog-image {
+        flex: 1 0 100%;
+    }
+}
 /*-----------------------------Index Layout-------------------------------*/
 
 
