@@ -269,10 +269,6 @@ main{
 
 /*-----------------------------Index Layout-------------------------------*/
 
-body {
-
-
-}
 
 .header-buttons-container {
     margin-top: 20px;
@@ -295,10 +291,25 @@ main img{
     width: 100%;
     border-radius: 25px;
 }
+@media screen and (max-width: 991px) {
+    .dog-image {
+        flex: 1 0 100%;
+        
+    }
+    main {
+        
+        grid-template-columns: 1fr 1fr ; 
+    }
+}
 
 @media screen and (max-width: 768px) {
     .dog-image {
         flex: 1 0 100%;
+        
+    }
+    main {
+        
+        grid-template-columns: 1fr ; 
     }
 }
 /*-----------------------------Index Layout-------------------------------*/
