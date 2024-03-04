@@ -1,0 +1,5 @@
+Jakub Matějíček - K práci přistupoval svědomitě a pečlivě, všechny úkoly prakticky zvládnul splnit během pár dnů a dokázal mi jednou poradit, když jsem si nevěděl rady zda by bylo vhodnější použit flexbox nebo grid. V komunikaci s ním nebyl žádný problém. 
+
+Jan Jonáš - Spolužák se mnou bez problémů komunikoval o chybách v mém designu a spolu jsme se dokázali domluvit. Jan Jonáš je velice pracovitý a navrhl si časový rozvrh tak aby byli jeho commity pravidelné.
+
+Obecně jsem velice spokojený s výběrem spolupracovníků na projektu a při práci na něm jsme se nedostali do žádných komplikací.
